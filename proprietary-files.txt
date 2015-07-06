@@ -150,7 +150,7 @@ etc/firmware/BCM4335C0_003.001.009.0105.0562_Asus_ZE550ML.hcd
 etc/firmware/dfw_sst.bin
 etc/firmware/fw_bcmdhd_apsta.bin
 etc/firmware/fw_bcmdhd.bin
-etc/firmware/FW_INFO.bin
+#etc/firmware/FW_INFO.bin
 etc/firmware/fw_sst_1495.bin
 etc/firmware/geq_lib_1495.bin
 etc/firmware/isp_acc_chromaproc_css21_2401.bin
@@ -161,7 +161,7 @@ etc/firmware/isp_acc_multires_v2_css21_2401.bin
 etc/firmware/isp_acc_sce_em_css21_2401.bin
 etc/firmware/isp_acc_warping_v2_css21_2401.bin
 etc/firmware/isp_acc_warping_v2_em_css21_2401.bin
-etc/firmware/M10MO_fw.bin
+#etc/firmware/M10MO_fw.bin
 etc/firmware/mp3_dec_1495.bin
 etc/firmware/msvdx.bin.prod
 etc/firmware/msvdx.bin.verf
