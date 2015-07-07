@@ -253,10 +253,6 @@ ENABLE_ITUXD := true
 PRODUCT_PACKAGES += \
     ituxd
 
-# Power HAL
-PRODUCT_PACKAGES += \
-    power.hd
-
 $(call inherit-product-if-exists, vendor/asus/moorefield/hd/hd-vendor.mk)
 $(call inherit-product-if-exists, vendor/intel/PRIVATE/hd/device-vendor.mk)
 $(call inherit-product-if-exists, vendor/intel/moorefield/prebuilts/houdini/houdini.mk)
