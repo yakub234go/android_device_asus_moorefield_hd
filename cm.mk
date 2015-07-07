@@ -10,9 +10,6 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/asus/moorefield/hd/device.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 DEVICE_PACKAGE_OVERLAYS += device/asus/moorefield/hd/overlay
 
 PRODUCT_RUNTIMES := runtime_libart_default
