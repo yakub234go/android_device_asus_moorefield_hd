@@ -238,5 +238,8 @@ etc/firmware/vsp.bin.prod
 etc/firmware/vsp.bin.verf
 etc/firmware/vtsv_lib_1495.bin
 
+# Lights
+lib/hw/lights.mofd_v1.so
+
 # Sensors
 lib/hw/sensors.mofd_v1.so
