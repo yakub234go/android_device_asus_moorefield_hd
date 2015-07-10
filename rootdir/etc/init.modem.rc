@@ -176,6 +176,7 @@ service nvmmanager /system/bin/nvm_server
     socket nvm-ctl stream 660 system radio
     user system
     group radio cache inet misc system
+	# TODO: Label these properly
     seclabel u:r:nvm_server:s0
 
 # adding 2nd nvm manager for DSDA
@@ -185,6 +186,7 @@ service nvmmanager2 /system/bin/nvm_server -i 2
     user system
     group radio cache inet misc system
     disabled
+	# TODO: Label these properly
     seclabel u:r:nvm_server:s0
 
 # adding 2nd vendor ril instance in case of multi sim
